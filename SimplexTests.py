@@ -1,0 +1,1 @@
+print "Iniciando o programa"
