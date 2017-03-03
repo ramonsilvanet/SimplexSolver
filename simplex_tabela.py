@@ -6,7 +6,14 @@ print ""
 
 def simplex(tabela):
     mostrar_tabela(tabela)
-    
+    solucao_basica = simplex_fase_i(tabela)
+
+
+def simplex_fase_i(tabela):
+    print "fase I"
+
+def simplex_fase_ii(tabela):
+    print "fase II"
 
 def mostrar_tabela(tabela):
     for i in range((len(tabela))):
